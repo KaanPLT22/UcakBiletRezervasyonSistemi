@@ -1,39 +1,36 @@
-Uçak Bilet Rezervasyon Sistemi
-Proje Hakkında
-Bu proje, uçak bileti rezervasyonu işlemlerini gerçekleştiren temel bir sistemdir. Java diliyle geliştirilmiş olup, uçak, lokasyon, uçuş ve rezervasyon işlemlerini yönetmektedir.
+# Uçak Bilet Rezervasyon Sistemi
 
-Sistem; uçak ve lokasyon ekleme, uçuş atama, rezervasyon yapma ve kayıtlı verileri listeleme gibi işlevleri desteklemektedir. Tüm veriler program içerisinde dizilerde tutulur ve JSON formatında dosyalara kaydedilerek kalıcı hale getirilir.
+## Proje Hakkında
 
-Özellikler
-Uçak Ekleme: Sisteme yeni uçak bilgileri eklenebilir.
+Uçak Bilet Rezervasyon Sistemi, uçak, lokasyon, uçuş ve rezervasyon işlemlerini kolayca yönetebilmenizi sağlayan bir Java OOP projesidir. Menüden seçim yaparak kolayca uçak ve lokasyon ekleme, uçuş atama, rezervasyon yapma ve kayıtlı verileri listeleme gibi işlemleri gerçekleştirebilirsiniz.
 
-Lokasyon Ekleme: Yeni kalkış ve varış noktaları (şehir veya havaalanı) tanımlanabilir.
+Tüm veriler program içerisinde dizilerde saklanmakta ve JSON dosyalarına kaydedilerek kalıcı hale getirilmektedir.
 
-Uçuş Atama: Tanımlanan uçak ve lokasyon bilgileri kullanılarak uçuşlar oluşturulabilir.
+## Json Kayıtları 
 
-Rezervasyon Yapma: Var olan uçuşlara yolcular için rezervasyon yapılabilir.
+- ** Lokasyonlar ** 
+- ** Rezervasyonlar ** 
+- ** Uçaklar ** 
+- ** Uçuşlar ** 
 
-Listeleme: Kayıtlı uçaklar, lokasyonlar, uçuşlar ve rezervasyonlar ayrı ayrı listelenebilir.
+---
 
-Veri Kaydetme: Tüm işlemler JSON formatında dosyaya kaydedilir ve program yeniden başlatıldığında dosyadan yüklenir.
+## Özellikler
 
-Kod Açıklaması
-Veri Yapıları: Uçak, lokasyon, uçuş ve rezervasyon verileri ayrı diziler (array) içerisinde tutulur.
+- **Uçak Ekleme:** Yeni uçak bilgileri eklenebilir.
+- **Lokasyon Ekleme:** Kalkış ve varış noktaları tanımlanabilir.
+- **Uçuş Atama:** Uçak ve lokasyonlar kullanılarak uçuşlar oluşturulabilir.
+- **Rezervasyon Yapma (Koşullu):** Mevcut uçuşlara yolcu rezervasyonu eklenebilir.
+- **Veri Listeleme:** Uçaklar, lokasyonlar, uçuşlar ve rezervasyonlar listelenebilir.
+- **Kalıcı Veri:** İşlemler JSON formatında dosyalara kaydedilir.
 
-Veri Kaydetme: JSON formatındaki dosya okuma ve yazma işlemleriyle kalıcılık sağlanır.
+---
 
-Ana Menü: Kullanıcı işlemlerini seçebileceği konsol tabanlı bir menü ile yönlendirilir.
+## Teknik Detaylar
 
-İşlem Fonksiyonları:
+- Java dili kullanılarak geliştirilmiştir.
+- Veri saklama için diziler (array) ve JSON dosyaları kullanılmıştır.
+- Konsol tabanlı menü sistemi ile kullanıcı etkileşimi sağlanır.
+- Her ana işlem için ayrı metodlar tanımlanmıştır:
 
-UcakEkle(): Yeni uçak bilgisi alıp diziye kaydeder.
-
-LokasyonEkle(): Yeni lokasyon bilgisi ekler.
-
-UcusAtama(): Uçak ve lokasyonlar üzerinden uçuş oluşturur.
-
-RezervasyonYap(): Var olan uçuşlara yolcu için rezervasyon kaydeder.
-
-Listele(): Uçak, lokasyon, uçuş ve rezervasyon verilerini ekrana yazdırır.
-
-Do-While Döngüsü: Kullanıcıdan sürekli işlem seçmesi istenir ve seçilen işlemi çalıştırır.
+---
