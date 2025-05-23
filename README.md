@@ -2,7 +2,7 @@
 
 ## Proje Hakkında
 
-Uçak Bilet Rezervasyon Sistemi, uçak, lokasyon, uçuş ve rezervasyon işlemlerini kolayca yönetebilmenizi sağlayan bir Java OOP projesidir. Menüden seçim yaparak kolayca uçak ve lokasyon ekleme, uçuş atama, rezervasyon yapma ve kayıtlı verileri listeleme gibi işlemleri gerçekleştirebilirsiniz.
+Uçak Bilet Rezervasyon Sistemi, Uçak ekleme listeleme , Lokasyon ekleme ve listeleme , Uçuş ekleme ve listeleme , Rezervasyon yaptırma (Koşullu) ve listeleme işlemlerini kolayca yönetebilmenizi sağlayan bir Java OOP projesidir. Menüden seçim yaparak kolayca uçak ve lokasyon ekleme, uçuş atama, rezervasyon yapma ve kayıtlı verileri listeleme gibi işlemleri gerçekleştirebilirsiniz.
 
 Tüm veriler program içerisinde dizilerde saklanmakta ve JSON dosyalarına kaydedilerek kalıcı hale getirilmektedir.
 
