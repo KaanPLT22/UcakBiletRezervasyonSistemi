@@ -17,10 +17,10 @@ Tüm veriler program içerisinde dizilerde saklanmakta ve JSON dosyalarına kayd
 
 ## Özellikler
 
-- **Uçak Ekleme:** Yeni uçak bilgileri eklenebilir.
-- **Lokasyon Ekleme:** Kalkış ve varış noktaları tanımlanabilir.
-- **Uçuş Atama:** Uçak ve lokasyonlar kullanılarak uçuşlar oluşturulabilir.
-- **Rezervasyon Yapma (Koşullu):** Mevcut uçuşlara yolcu rezervasyonu eklenebilir.
+- **Uçak Ekleme:** Yeni uçak bilgileri alınarak array ve JSON dosyalarına kaydeder.
+- **Lokasyon Ekleme:** Ülke , Şehir , Havalimanı ve Aktif olup olmadığı bilgileri alınarak array ve JSON dosyalarına kaydeder.
+- **Uçuş Ekleme :** Uçak ve lokasyon bilgilerini datadan çekerek ve tarih saat gibi bilgileri alarak uçuş atama görevini gerçekleştirir. Array ve JSON dosyalarına kaydeder.
+- **Rezervasyon Yapma (Koşullu):** Rezervasyon yapılacak uçak seçildikten sonra kullanıcıdan Ad Soyad Yaş gibi bilgileri alır ve rezervasyon işlemini gerçekleştirir. Array ve JSON dosyalarına kaydeder.
 - **Veri Listeleme:** Uçaklar, lokasyonlar, uçuşlar ve rezervasyonlar listelenebilir.
 - **Kalıcı Veri:** İşlemler JSON formatında dosyalara kaydedilir.
 
