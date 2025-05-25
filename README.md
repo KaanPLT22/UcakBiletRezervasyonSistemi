@@ -26,10 +26,10 @@ UcakBiletRezervasyonSistemi/
 ├── Main.java                   → Uygulamanın giriş noktasıdır. Ana menü burada sunulur.
 │
 ├── models/                    → Veri yapıları ve temel sınıflar
-│   ├── Airplane.java           → Uçak bilgilerini tutar.
-│   ├── Location.java           → Lokasyon bilgilerini içerir.
-│   ├── Flight.java             → Uçuş bilgilerini içerir.
-│   └── Reservation.java        → Yolcu rezervasyonu bilgilerini tutar.
+│   ├── Airplane.java           → Uçak bilgilerini tutar (model, marka, ID, koltuk kapasitesi).
+│   ├── Location.java           → Lokasyon bilgilerini içerir (ülke, şehir, havaalanı, aktif/pasif durumu).
+│   ├── Flight.java             → Uçuş bilgilerini içerir (kalkış ve varış lokasyonu, kalkış saati, uçak, dolu koltuk sayısı).
+│   └── Reservation.java        → Yolcu rezervasyonu bilgilerini tutar (uçuş, yolcu adı, soyadı, yaşı).
 │
 ├── services/                  → İş mantığını içeren servis katmanı
 │   ├── JsonDosyaIslemleri.java → JSON dosyalarına veri kaydetme işlemlerini yapar.
