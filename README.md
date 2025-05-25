@@ -6,14 +6,6 @@ Uçak Bilet Rezervasyon Sistemi, Uçak ekleme listeleme , Lokasyon ekleme ve lis
 
 Tüm veriler program içerisinde dizilerde saklanmakta ve JSON dosyalarına kaydedilerek kalıcı hale getirilmektedir.
 
-## Json Kayıtları 
-
-- ** Lokasyonlar ** 
-- ** Rezervasyonlar ** 
-- ** Uçaklar ** 
-- ** Uçuşlar ** 
-
----
 
 ## Özellikler
 
@@ -25,6 +17,28 @@ Tüm veriler program içerisinde dizilerde saklanmakta ve JSON dosyalarına kayd
 - **Kalıcı Veri:** İşlemler JSON formatında dosyalara kaydedilir.
 
 ---
+
+## Projenin Şeması
+UcakBiletRezervasyonSistemi/
+│
+├── Main.java                    → Uygulamanın başlangıç noktasıdır. Ana menü burada sunulur.
+│
+├── models/                      → Veri yapıları ve temel sınıflar
+│   ├── Airplane.java            → Uçak bilgilerini tutar.
+│   ├── Location.java            → Lokasyon bilgilerini içerir.
+│   ├── Flight.java              → Uçuş bilgileri.
+│   └── Reservation.java         → Yolcu rezervasyonu bilgilerini tutar.
+│
+├── services/                    → İş mantığını içeren servis katmanı
+│   ├── JsonDosyaIslemleri.java  → Uçak ekleme, listeleme gibi işlemleri yapar.
+│   └── ReservationService.java  → Rezervasyon oluşturma ve listeleme işlemleri.
+│
+└── data/                        → JSON veri dosyalarının saklandığı klasör
+    ├── ucaklar.json
+    ├── lokasyonlar.json
+    ├── ucuslar.json
+    └── rezervasyonlar.json
+
 
 ## Teknik Detaylar
 
