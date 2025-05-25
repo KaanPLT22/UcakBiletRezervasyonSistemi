@@ -21,7 +21,7 @@ Tüm veriler program içerisinde dizilerde saklanmakta ve JSON dosyalarına kayd
 ## 🗂️ Projenin Dosya Yapısı
 
 ```
-UcakBiletRezervasyonSistemi/
+UcakBiletRezervasyonSistemi/src/
 │
 ├── Main.java                   → Uygulamanın giriş noktasıdır. Ana menü burada sunulur.
 │
