@@ -18,27 +18,7 @@ Tüm veriler program içerisinde dizilerde saklanmakta ve JSON dosyalarına kayd
 
 ---
 
-## Projenin Şeması
-UcakBiletRezervasyonSistemi/
-│
-├── Main.java                  → Uygulamanın giriş noktasıdır. Ana menü burada sunulur.
-│
-├── models/                   → Veri yapıları ve temel sınıflar
-│   ├── Airplane.java         → Uçak bilgilerini tutar.
-│   ├── Location.java         → Lokasyon bilgilerini içerir.
-│   ├── Flight.java           → Uçuş bilgilerini içerir.
-│   └── Reservation.java      → Yolcu rezervasyonu bilgilerini tutar.
-│
-├── services/                 → İş mantığını içeren servis katmanı
-│   ├── JsonDosyaIslemleri.java → Verileri JSON dosyalarına kaydetme işlemini yapar.
-│   └── ReservationService.java → Rezervasyon oluşturma ve listeleme işlemlerini yürütür.
-│
-└── data/                     → JSON veri dosyalarının saklandığı klasör
-    ├── ucaklar.json
-    ├── lokasyonlar.json
-    ├── ucuslar.json
-    └── rezervasyonlar.json
-
+<pre> ```plaintext UcakBiletRezervasyonSistemi/ │ ├── Main.java → Uygulamanın giriş noktasıdır. Ana menü burada sunulur. │ ├── models/ → Veri yapıları ve temel sınıflar │ ├── Airplane.java → Uçak bilgilerini tutar. │ ├── Location.java → Lokasyon bilgilerini içerir. │ ├── Flight.java → Uçuş bilgilerini içerir. │ └── Reservation.java → Yolcu rezervasyonu bilgilerini tutar. │ ├── services/ → İş mantığını içeren servis katmanı │ ├── JsonDosyaIslemleri.java → Verileri JSON dosyalarına kaydetme işlemini yapar. │ └── ReservationService.java → Rezervasyon oluşturma ve listeleme işlemlerini yürütür. │ └── data/ → JSON veri dosyalarının saklandığı klasör ├── ucaklar.json ├── lokasyonlar.json ├── ucuslar.json └── rezervasyonlar.json ``` </pre>
 
 
 ## Teknik Detaylar
